@@ -1,6 +1,19 @@
 K3s - Lightweight Kubernetes
 ===============================================
 
+# General Information
+
+Forked from [k3s-io/k3s](https://github.com/k3s-io/k3s) Source branch for all modifications: `v1.22.17+k3s1`.
+
+## Build
+
+Follow the guide available in `BUILDING.md`. In a nutshell: 
+
+1. Execute `mkdir -p build/data && make download && make generate`
+2. Execute `SKIP_VALIDATE=true make`
+
+# About K3s
+
 Lightweight Kubernetes.  Production ready, easy to install, half the memory, all in a binary less than 100 MB.
 
 Great for:
